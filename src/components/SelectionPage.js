@@ -30,7 +30,7 @@ const SelectionPage = ({
   const history = useHistory(); 
   let buddyName=""
   let buddyNameArray = connectedUsers.filter(user=>user.id===buddy);
-  if (buddyNameArray.length >=1) {buddyName=buddyNameArray[0].name};
+  if (buddyNameArray.length >=1) {buddyName=buddyNameArray[0].name}
 
   useEffect(() => {
     if (acceptedCall) {

@@ -16,7 +16,6 @@ const LoginForm = ({ onAuth, onSetCredentials, onConnect, onChangeForm }) => {
                 <h1 className="text-center mb-3 ">Login</h1>
 
                 <form
-                  form
                   className="text-light text-center"
                   onSubmit={onConnect}
                   onChange={onChangeForm}

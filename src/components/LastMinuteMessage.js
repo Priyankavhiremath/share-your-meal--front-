@@ -5,7 +5,7 @@ import React from 'react'
 
 const LastMinuteMessage = () => {
     return (
-            <div display="flex">
+            <div style={{display: "flex"}}>
             
             <h1 className="lastMinute" style={{
             position:"absolute",

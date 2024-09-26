@@ -20,8 +20,7 @@ const setAuthHeaders = () => {
 const userContext = async () => {
   setAuthHeaders();
   try {
-    const data = await axios.get("/auth/me");
-    return data;
+    return data = await axios.get("/auth/me");
   } catch (e) {
     console.log({ message: e.message, stack: e.stack });
     return null;

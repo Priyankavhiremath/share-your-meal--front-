@@ -25,7 +25,7 @@ const CallPage = ({ partnerVideo, userVideo, onCallOngoing, callOngoing, endCall
     if (callProgress === 50 )
     {setIsLastMinute(true);
     endSound.play();
-    };
+    }
   }, [callProgress]);
 
 //call automatic hang up
@@ -36,7 +36,7 @@ const CallPage = ({ partnerVideo, userVideo, onCallOngoing, callOngoing, endCall
 //fade out
   useEffect(()=>{
     if (callProgress === 96)
-    {setAreLastSeconds(true)};
+    {setAreLastSeconds(true)}
   }, [callProgress]);
 
   useEffect(() => {
